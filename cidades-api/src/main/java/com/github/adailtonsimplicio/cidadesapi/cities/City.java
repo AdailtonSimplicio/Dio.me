@@ -12,9 +12,9 @@ import org.springframework.data.geo.Point;
 
 @Entity
 @Table(name = "cidade")
-/*@TypeDefs(value = {
+@TypeDefs(value = {
         @TypeDef(name = "point", typeClass = PointType.class)
-})*/
+})
 public class City {
 
     @Id
@@ -32,9 +32,9 @@ public class City {
     private String geolocation;
 
     // 2nd
-    /*@Type(type = "point")
+    @Type(type = "point")
     @Column(name = "lat_lon", updatable = false, insertable = false)
-    private Point location;*/
+    private Point location;
 
     public City() {
     }
@@ -69,7 +69,7 @@ public class City {
         return geolocation;
     }
 
-    /*public Point getLocation() {
+    public Point getLocation() {
         return location;
-    }*/
+    }
 }

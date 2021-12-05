@@ -1,4 +1,4 @@
-package com.github.adailtonsimplicio.cidadesapi.staties;
+package com.github.adailtonsimplicio.cidadesapi.states;
 
 import com.github.adailtonsimplicio.cidadesapi.countries.Country;
 import com.vladmihalcea.hibernate.type.json.JsonBinaryType;

@@ -1,4 +1,4 @@
-package com.github.adailtonsimplicio.cidadesapi.staties;
+package com.github.adailtonsimplicio.cidadesapi.states;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 
