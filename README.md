@@ -1,2 +1,0 @@
-# Dio.me
-My Projects
