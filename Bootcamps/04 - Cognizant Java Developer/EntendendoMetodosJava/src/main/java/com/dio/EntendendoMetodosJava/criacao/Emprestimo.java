@@ -1,4 +1,4 @@
-package com.dio.EntendendoMetodosJava;
+package com.dio.EntendendoMetodosJava.criacao;
 
 public class Emprestimo {
     public static double duasParcelas(){

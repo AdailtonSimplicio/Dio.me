@@ -1,4 +1,4 @@
-package com.dio.EntendendoMetodosJava;
+package com.dio.EntendendoMetodosJava.criacao;
 
 public class Calculadora {
     public static void soma(double numero1,double numero2){
