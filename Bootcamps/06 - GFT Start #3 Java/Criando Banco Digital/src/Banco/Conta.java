@@ -10,10 +10,10 @@ public abstract class Conta implements Iconta {
     protected double saldo;
     protected  Cliente cliente;
 
-    public Conta(Banco.Cliente cliente){
+    public Conta(Cliente cliente){
         this.agencia = Conta.AGENCIA_PADRAO;
         this.conta = SEQUENCIAL ++;
-        this.cliente = this.cliente;
+        this.cliente = cliente;
     }
 
     @Override
@@ -27,7 +27,7 @@ public abstract class Conta implements Iconta {
     }
 
     @Override
-    public void transferir(double valor, Conta contaDestino){
+    public void transferir(double valor, Iconta contaDestino){
         this.sacar(valor);
         contaDestino.depositar(valor);
 
@@ -45,6 +45,7 @@ public abstract class Conta implements Iconta {
         return saldo;
     }
     protected void imprimirInforsComuns(){
+        System.out.println(String.format("Titular: %s", this.cliente.getNome()));
         System.out.println(String.format("Agencia: %d", this.getAgencia()));
         System.out.println(String.format("Conta: %d", this.getConta()));
         System.out.println(String.format("Saldo: %2.2f", this.getSaldo()));

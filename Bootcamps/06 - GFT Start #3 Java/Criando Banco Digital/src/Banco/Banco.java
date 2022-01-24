@@ -3,6 +3,7 @@ package Banco;
 import java.util.List;
 
 public class Banco {
+
     private String nome;
     private List<Conta> contas;
 
@@ -14,11 +15,10 @@ public class Banco {
         this.nome = nome;
     }
 
-    public List<Banco.Conta> getContas() {
+    public List<Conta> getContas() {
         return contas;
     }
-
-    public void setContas(List<Banco.Conta> contas) {
+    public void setContas(List<Conta> contas) {
         this.contas = contas;
     }
 }

@@ -2,8 +2,11 @@ package Banco;
 
 public class Main {
     public static void main(String[] args){
-        Conta cc = new ContaCorrente();
-        Conta poupanca = new ContaPoupanca();
+        Cliente adailton = new Cliente();
+        adailton.setNome("adailton");
+
+        Iconta cc = new ContaCorrente(adailton);
+        Iconta poupanca = new ContaPoupanca(adailton);
 
             cc.depositar(1000.00);
             cc.transferir(75.00, poupanca);
