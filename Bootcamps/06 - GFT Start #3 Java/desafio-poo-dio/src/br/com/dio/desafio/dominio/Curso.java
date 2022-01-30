@@ -13,7 +13,6 @@ public class Curso extends Conteudo{
     }
 
 
-
     public int getCargaHoraria() {
         return cargaHoraria;
     }
@@ -30,6 +29,4 @@ public class Curso extends Conteudo{
                 ", cargaHoraria=" + cargaHoraria +
                 '}';
     }
-
-
 }
