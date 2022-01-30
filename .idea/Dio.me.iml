@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <excludeFolder url="file://$MODULE_DIR$/Bootcamps/01 - TQI Java Developer/Introdução ao framework Spring Boot/springboot/.idea" />
+      <excludeFolder url="file://$MODULE_DIR$/Bootcamps/01 - TQI Java Developer/Introdução ao framework Spring Boot/springboot/target" />
+      <excludeFolder url="file://$MODULE_DIR$/Bootcamps/01 - TQI Java Developer/Introdução ao framework Spring Boot/springbootconfig (Properties)/.idea" />
+      <excludeFolder url="file://$MODULE_DIR$/Bootcamps/01 - TQI Java Developer/Introdução ao framework Spring Boot/springbootconfig (Properties)/target" />
+      <excludeFolder url="file://$MODULE_DIR$/Bootcamps/01 - TQI Java Developer/Introdução ao framework Spring Boot/springbootconfig (yml)/.idea" />
+      <excludeFolder url="file://$MODULE_DIR$/Bootcamps/01 - TQI Java Developer/Introdução ao framework Spring Boot/springbootconfig (yml)/target" />
+      <excludeFolder url="file://$MODULE_DIR$/Bootcamps/04 - Cognizant Java Developer/EntendendoMetodosJava/.idea" />
+      <excludeFolder url="file://$MODULE_DIR$/Bootcamps/04 - Cognizant Java Developer/EntendendoMetodosJava/target" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>
